@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:padding="15dp"
+    android:background="#00E5FF"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:id="@+id/root_layout_cv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/miColor"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tvMes"
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:textColor="#006064"
+            android:text="mes"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvDia"
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvMes"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="día"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/tvAnyo"
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDia"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="año"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvEstado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_toStartOf="@+id/tvIMChistorico"
+            android:layout_toEndOf="@id/tvMes"
+            android:gravity="center_vertical"
+            android:text="estado"
+            android:textColor="#006064"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/tvSexo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEstado"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_toStartOf="@+id/tvIMChistorico"
+            android:layout_toEndOf="@id/tvDia"
+            android:gravity="center_vertical"
+            android:text="sexo"
+            android:textColor="#006064" />
+
+        <TextView
+            android:id="@+id/tvPeso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvSexo"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_toStartOf="@+id/tvIMChistorico"
+            android:layout_toEndOf="@id/tvDia"
+            android:gravity="center_vertical"
+            android:text="peso"
+            android:textColor="#006064" />
+
+        <TextView
+            android:id="@+id/tvAltura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvPeso"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_toStartOf="@+id/tvIMChistorico"
+            android:layout_toEndOf="@id/tvDia"
+            android:gravity="center_vertical"
+            android:text="altura"
+            android:textColor="#006064" />
+
+        <TextView
+            android:id="@+id/tvLabel"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="163dp"
+            android:layout_marginEnd="12dp"
+            android:gravity="center"
+            android:text="imc"
+            android:textColor="#006064" />
+
+        <TextView
+            android:id="@+id/tvIMChistorico"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/tvLabel"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="2dp"
+            android:gravity="center"
+            android:text="resultado"
+            android:textSize="34sp" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

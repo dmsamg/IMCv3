@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Índice de masa corporal (IMC) v.3</string>
+    <string name="labelPeso">Peso (Kg)</string>
+    <string name="labelAltura">Altura (cm)</string>
+    <string name="labelIMCHistorico">IMC</string>
+    <string name="radioButtonHombre">Hombre</string>
+    <string name="radioButtonMujer">Mujer</string>
+    <string name="labelBotonCalcular">Calcular</string>
+    <string name="labelBotonHistorico">Histórico</string>
+    <string name="textZero">0.00</string>
+    <string name="msgErrorInputs">Los campos <b>Peso</b> y <b>Altura</b> no deben estar vacíos para realizar el cálculo.</string>
+    <string name="msgErrorZeros">Los campos <b>Peso</b> y <b>Altura</b> deben tener un valores mayores a 0 para realizar el cálculo.</string>
+    <string name="msgInfoRecyclerView">No hay información disponible para el histórico.</string>
+    <string name="filename">datosIMC.txt</string>
+    <string name="mssg_dialog">¿Desea guardar la información en el histórico?</string>
+    <string name="mssg_saved">La información se ha registrado en el histórico.</string>
+    <string name="mssg_not_saved">La información no ha quedado registrada en el histórico.</string>
+
+    <string-array name="meses">
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </string-array>
+</resources>
